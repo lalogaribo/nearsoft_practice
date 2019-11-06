@@ -56,6 +56,7 @@ public class FlightsPage extends BasePage {
 
 	public FlightsPage setDepartureCity(String cityFrom) {
 		wait.until(ExpectedConditions.elementToBeClickable(flyingFrom)).sendKeys(cityFrom);
+		selectionOutput.click();
 		return this;
 	}
 

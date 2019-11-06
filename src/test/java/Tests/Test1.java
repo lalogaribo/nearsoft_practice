@@ -22,11 +22,12 @@ public class Test1 extends BaseTest {
 	}
 	
 	@Test
-	public void sortByHigher()  {
+	public void sortByHigher() throws InterruptedException  {
+		Thread.sleep(2000);
 		app.useResults()
 		.sortByHigher();
-		app.useResults().getFlighResults();
-//		Assert.assertEquals(app.useResults().getTypeOfSort(), "Price (Highest)");
+		Assert.assertEquals(app.useResults().getTypeOfSort(), "Price (Highest)");
+		Assert.assertEquals(app.useResults().getFlighResults(), 10);
 	}
 
 }

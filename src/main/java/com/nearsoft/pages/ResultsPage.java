@@ -41,13 +41,14 @@ public class ResultsPage extends BasePage {
 	}
 	
 	public String getTypeOfSort() {
-		wait.until(ExpectedConditions.elementSelectionStateToBe(sortDropdown, true));
-		return sortDropdown.getText();
+		Select select = new Select(sortDropdown);
+		WebElement option = select.getFirstSelectedOption();
+		String defaultItem = option.getText();
+		return defaultItem;
 	}
 	
-	public void getFlighResults() {
-		System.out.println(flighResults.size());
-//		return flighResults.size();
+	public int getFlighResults() {
+		return flighResults.size();
 	}
 
 }

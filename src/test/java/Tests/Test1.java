@@ -14,7 +14,7 @@ public class Test1 extends BaseTest {
 		.setDepartureCity(Constants.departureCity)
 		.setDestinyCity(Constants.destinyCity)
 		.setDepartingDate(Constants.departingDate)
-		.setReturningDate(Constants.returningDate)
+		.setReturningDate()
 		.clickTravelersOption()
 		.setChildren()
 		.setChildrenAge()
@@ -25,6 +25,7 @@ public class Test1 extends BaseTest {
 	public void sortByHigher()  {
 		app.useResults()
 		.sortByHigher();
+		app.useResults().getFlighResults();
 //		Assert.assertEquals(app.useResults().getTypeOfSort(), "Price (Highest)");
 	}
 

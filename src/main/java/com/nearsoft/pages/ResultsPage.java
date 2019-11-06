@@ -21,7 +21,7 @@ public class ResultsPage extends BasePage {
 	WebElement sortDropdown;
 
 	@FindBys({
-			@FindBy(id = "flight-module-2020-02-06t07:55:00-06:00-coach-mex-gdl-y4-738-coach-gdl-cun-y4-606_2020-02-09t20:55:00-05:00-coach-cun-mex-4o-2391_") })
+			@FindBy(css = "ul#flightModuleList li") })
 	private List<WebElement> flighResults;
 
 	public ResultsPage(WebDriver driver) {
@@ -43,6 +43,11 @@ public class ResultsPage extends BasePage {
 	public String getTypeOfSort() {
 		wait.until(ExpectedConditions.elementSelectionStateToBe(sortDropdown, true));
 		return sortDropdown.getText();
+	}
+	
+	public void getFlighResults() {
+		System.out.println(flighResults.size());
+//		return flighResults.size();
 	}
 
 }

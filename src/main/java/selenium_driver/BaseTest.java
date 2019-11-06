@@ -21,7 +21,9 @@ public class BaseTest {
 	
 	@BeforeTest
 	protected void waitPageLoad() {
+		System.out.println("Waiting for page load");
 		BasePage.waitForLoad(driver);
+		System.out.println("Page loaded");
 	}
 
 	@AfterSuite

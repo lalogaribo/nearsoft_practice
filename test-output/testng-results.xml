@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16197" started-at="2019-11-06T04:50:56Z" finished-at="2019-11-06T04:51:12Z">
+  <suite name="Default suite" duration-ms="14766" started-at="2019-11-06T16:20:13Z" finished-at="2019-11-06T16:20:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16197" started-at="2019-11-06T04:50:56Z" finished-at="2019-11-06T04:51:12Z">
+    <test name="Default test" duration-ms="14766" started-at="2019-11-06T16:20:13Z" finished-at="2019-11-06T16:20:28Z">
       <class name="Tests.Test1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.Test1@649d209a]" name="setUp" is-config="true" duration-ms="5605" started-at="2019-11-05T22:50:50Z" finished-at="2019-11-05T22:50:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.Test1@649d209a]" name="setUp" is-config="true" duration-ms="6066" started-at="2019-11-06T10:20:07Z" finished-at="2019-11-06T10:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="waitPageLoad()[pri:0, instance:Tests.Test1@649d209a]" name="waitPageLoad" is-config="true" duration-ms="40" started-at="2019-11-05T22:50:56Z" finished-at="2019-11-05T22:50:56Z">
+        <test-method status="PASS" signature="waitPageLoad()[pri:0, instance:Tests.Test1@649d209a]" name="waitPageLoad" is-config="true" duration-ms="17" started-at="2019-11-06T10:20:13Z" finished-at="2019-11-06T10:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitPageLoad -->
-        <test-method status="PASS" signature="generateFly()[pri:0, instance:Tests.Test1@649d209a]" name="generateFly" duration-ms="15740" started-at="2019-11-05T22:50:56Z" finished-at="2019-11-05T22:51:12Z">
+        <test-method status="PASS" signature="generateFly()[pri:0, instance:Tests.Test1@649d209a]" name="generateFly" duration-ms="13924" started-at="2019-11-06T10:20:13Z" finished-at="2019-11-06T10:20:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateFly -->
-        <test-method status="PASS" signature="sortByHigher()[pri:0, instance:Tests.Test1@649d209a]" name="sortByHigher" duration-ms="406" started-at="2019-11-05T22:51:12Z" finished-at="2019-11-05T22:51:12Z">
+        <test-method status="PASS" signature="sortByHigher()[pri:0, instance:Tests.Test1@649d209a]" name="sortByHigher" duration-ms="813" started-at="2019-11-06T10:20:27Z" finished-at="2019-11-06T10:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByHigher -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Test1@649d209a]" name="tearDown" is-config="true" duration-ms="16992" started-at="2019-11-05T22:51:12Z" finished-at="2019-11-05T22:51:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Test1@649d209a]" name="tearDown" is-config="true" duration-ms="9577" started-at="2019-11-06T10:20:28Z" finished-at="2019-11-06T10:20:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
